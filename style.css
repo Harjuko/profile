@@ -29,7 +29,7 @@ a:hover {
 
 a{
   font-weight: 300;
-  color: (125, 125, 125);
+  color: rgb(125, 125, 125);
 }
 
 #italic {
@@ -56,9 +56,13 @@ a{
   border-radius: 50%;
 }
 
-.list-inline > li {
+.list-inline >li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px 0px;
+  font-size: 20px;
+}
 
+.nopadding {
+  padding: 0px;
 }
 
