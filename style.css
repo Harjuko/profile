@@ -1,0 +1,64 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(221, 85, 85);
+  font-size: 22px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(125, 125, 125);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(125, 125, 125);
+  letter-spacing: -1px;
+  font-size: 15px;
+  font-weight: 300;
+  background: rgb(230, 230, 230);
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a{
+  font-weight: 300;
+  color: (125, 125, 125);
+}
+
+#italic {
+  font-style: italic;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 20 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  margin: 0 auto;
+  align-content: center;
+  box-shadow: 2px 2px 3px grey;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  background: white;
+  align-content: center;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
